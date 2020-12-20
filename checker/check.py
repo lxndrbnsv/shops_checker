@@ -8,7 +8,7 @@ class CheckData:
 
         print(shop_dict)
         url = f"https://www.googleapis.com/pagespeedonline/v5/runPagespeed?" \
-              f"url={shop_dict['shop_link']}&key= AIzaSyDXP2ElzF3MSQQeBiFk0lKG9Kjg0gVfcTo"
+              f"url={shop_dict['shop_link']}&key= "
 
         response = requests.get(url)
 
